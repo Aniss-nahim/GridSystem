@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Lucida Sans';
+}
+
+.full-container{
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container{
+    display : flex;
+    flex-direction : column;
+    margin: auto;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.col{
+    width: 8.333%;
+    padding: .8rem;
+    box-sizing: border-box;
+}
+.s1 { width: 8.333%; flex-basis: 8.333%;}
+.s2 { width: 16.667%; flex-basis: 16.667%;}
+.s3 { width: 25%; flex-basis: 25%;}
+.s4 { width: 33.333%; flex-basis: 33.333%;}
+.s5 { width: 41.667%; flex-basis: 41.667%;}
+.s6 { width: 50%; flex-basis: 50%;}
+.s7 { width: 58.333%; flex-basis: 58.333%;}
+.s8 { width: 66.667%; flex-basis: 66.667%;}
+.s9 { width: 75%; flex-basis: 75%;}
+.s10 { width: 83.333%; flex-basis: 83.333%;}
+.s11 { width: 91.667%; flex-basis: 91.667%;}
+.s12 { width: 100%; flex-basis: 100%;}
+
+/* Extra small devices and down */
+@media(max-width: 576px){
+    .row{
+        width : 100%;
+        margin: 0;
+    }
+}
+
+/* Small devices and down */
+@media(max-width: 768px){
+
+}
+
+/* Medium devices and up */
+@media(min-width: 768px){
+    .row{
+        width: 90%;
+        margin: auto;
+    }
+
+    .m1 { width: 8.333%; flex-basis: 8.333%; }
+    .m2 { width: 16.667%; flex-basis: 16.667%; }
+    .m3 { width: 25%; flex-basis: 25%; }
+    .m4 { width: 33.333%; flex-basis: 33.333%; }
+    .m5 { width: 41.667%; flex-basis: 41.667%; }
+    .m6 { width: 50%; flex-basis: 50%; }
+    .m7 { width: 58.333%; flex-basis: 58.333%;}
+    .m8 { width: 66.667%; flex-basis: 66.667%;}
+    .m9 { width: 75%; flex-basis: 75%;}
+    .m10 { width: 83.333%; flex-basis: 83.333%;}
+    .m11 { width: 91.667%; flex-basis: 91.667%;}
+    .m12 { width: 100%; flex-basis: 100%;}
+}
+
+/* Large devices and up */
+@media(min-width: 992px){
+
+    .l1 { width: 8.333%; flex-basis: 8.333%;}
+    .l2 { width: 16.667%; flex-basis: 16.667%; }
+    .l3 { width: 25%; flex-basis: 25%; }
+    .l4 { width: 33.333%; flex-basis: 33.333%; }
+    .l5 { width: 41.667%; flex-basis: 41.667%; }
+    .l6 { width: 50%; flex-basis: 50%; }
+    .l7 { width: 58.333%; flex-basis: 58.333%;}
+    .l8 { width: 66.667%; flex-basis:66.667%; }
+    .l9 { width: 75%; flex-basis: 75%; }
+    .l10 { width: 83.333%; flex-basis: 83.333%; }
+    .l11 { width: 91.667%; flex-basis: 91.667%; }
+    .l12 { width: 100%; flex-basis: 100%; }
+}
+
+/* Extra large devices and up  */
+@media(min-width: 1200px){
+    .container, .full-container{
+        max-width: 1440px;   
+    }
+}
+

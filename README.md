@@ -2,7 +2,7 @@
 Grid system similar to materialize css responsive grid system using **flexBox**
 
 ## Documentation
-Similar to m[aterialize](https://materializecss.com/) css ui framework we are using 12 columns fuild, this will help you layout your page in an **ordered easy way**.
+Similar to [materialize](https://materializecss.com/) css ui framework we are using 12 columns fuild, this will help you layout your page in an **ordered easy way**.
 
 ### Container
 `.container` class allows your <div> to act like a container.
